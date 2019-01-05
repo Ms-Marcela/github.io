@@ -3,31 +3,65 @@
   <head>
       <title>Portolio | Marcela Lopez</title>
   </head>
+  <style>
+  *, *:before, *:after  {
+  box-sizing: border-box;
+}
+
+.image1 {
+  float: left;
+  padding-right: 15px;
+  padding: 5px;
+
+}
+
+.image2, .image3, .image4{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  padding-top: 20px
+}
+
+.row {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+  </style>
   <body>
     <header>
       <h1>Marcela Lopez</h1>
       <p class="slogan">UX Designer from the Metropex area</p>
     </header>
     <main>
-      <div class="project featured-project">
-          <img src="http://lorempixel.com/350/260/abstract/placehorder-1" alt="project screenshot"/>
-          <h2>Project Name</h2>
-          <p>Project description text</p>
-      </div>
-      <div class="project">
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-          <h2>Project Name</h2>
-          <p>Project description text</p>
-      </div>
-      <div class="project">
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-          <h2>Project Name</h2>
-          <p>Project description text</p>
-      </div>
-    </main>
+       <div class="project featured-project">
+         <img class="image1" src="http://lorempixel.com/350/260/abstract/placeholder-1" style="width: 40%" alt="project screenshot"/>
+         <h2>Featured Project Name</h2>
+         <p>Project description text</p>
+       </div>
+       <div class="row">
+       <div class="project image2">
+         <img src="http://lorempixel.com/350/260/abstract/placeholder-2" style="width: 100%" alt="project screenshot"/>
+         <h2>Project Name</h2>
+         <p>Project description text</p>
+       </div>
+       <div class="project image3">
+         <img src="http://lorempixel.com/350/260/abstract/placeholder-3" style="width: 100%" alt="project screenshot"/>
+         <h2>Project Name</h2>
+         <p>Project description text</p>
+       </div>
+       <div class="project image4">
+         <img src="http://lorempixel.com/350/260/abstract/placeholder-4" style="width: 100%" alt="project screenshot"/>
+         <h2>Project Name</h2>
+         <p>Project description text</p>
+       </div>
+     </div>
+     </main>
     <footer>
         <ul>
-            <li> <a href="http://linkedin.com/in/marcela-lopez-791885171">linkedin</a> </li>
+          <li> <a href="http://linkedin.com/in/marcela-lopez-791885171">LinkedIn</a> </li>
             <li> <a href="https://github.com/Ms-Marcela">GitHub</a> </li>
             <li> <a href="https://twitter.com/mar_designs">Twitter</a> </li>
             <li> <a href="mailto:ms.mar.lopez1@gmail.com">Email</a> </li>
